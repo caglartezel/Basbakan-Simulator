@@ -1,0 +1,2402 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 3976 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/Projects/BasbakanSimulator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53892
+Successfully changed project path to: G:/Projects/BasbakanSimulator
+G:/Projects/BasbakanSimulator
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 214.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path G:/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Projects/BasbakanSimulator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'G:/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.030428 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Domain Reload Profiling:
+	ReloadAssembly (639ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.179690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1985ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1729ms)
+			LoadAssemblies (766ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.46 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 3.290200 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.942200 ms  DeleteObjects: 0.120400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(3e5d798945d7332408c8934af4f20791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3e5d798945d7332408c8934af4f20791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79e5ab6a882ae8ea8ad7e8291532c10') in 0.017133 seconds 
+  Import took 0.055107 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.213019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1221.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.291 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9318ms)
+		BeginReloadAssembly (2024ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (103ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (724ms)
+		EndReloadAssembly (6487ms)
+			LoadAssemblies (1374ms)
+			RebuildTransferFunctionScriptingTraits (40ms)
+			SetupTypeCache (1291ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (3825ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (27ms)
+				RefreshPlugins (1246ms)
+				BeforeProcessingInitializeOnLoad (643ms)
+				ProcessInitializeOnLoadAttributes (1669ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (13ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(85900fb5729b6db42a6e417ad0d4c0f2) path("Packages/com.unity.probuilder/Editor/EditorCore/TextureRotateTool.cs") state(2)
+Script is not up to date after domain reload: guid(72b17ff6fd2249038e3d0e0d8969cef0) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/MergeFaces.cs") state(2)
+Script is not up to date after domain reload: guid(c2ff91a42b25c934da55ac7fa3b89db9) path("Packages/com.unity.probuilder/Editor/EditorCore/RepairActions.cs") state(2)
+Script is not up to date after domain reload: guid(d790e5dd7e634bac936d5dc0e026ae20) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/ExtrudeFaces.cs") state(2)
+Script is not up to date after domain reload: guid(50cd975dde7f63e4780b557b46379820) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorToolbar.cs") state(2)
+Script is not up to date after domain reload: guid(5beb7cb1a6d016b4a856f5112f2048fd) path("Packages/com.unity.probuilder/Editor/EditorCore/UnwrapParametersEditor.cs") state(2)
+Script is not up to date after domain reload: guid(57444c075000242ea99e263cee940de2) path("Packages/com.unity.probuilder/Runtime/Core/ColliderBehaviour.cs") state(2)
+Script is not up to date after domain reload: guid(e95f50cd644f90741bb903cb56bcd67e) path("Packages/com.unity.probuilder/Editor/EditorCore/BezierSplineEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a61c5819f2b24f3fa336247228361725) path("Packages/com.unity.probuilder/Editor/MenuActions/Interaction/ToggleSelectBackFaces.cs") state(2)
+Script is not up to date after domain reload: guid(ac19f03e418a945ba9d37c7d32e5cecb) path("Packages/com.unity.probuilder/Runtime/Core/Projection.cs") state(2)
+Script is not up to date after domain reload: guid(48979d80dfe00104da221c9a1d70964a) path("Packages/com.unity.probuilder/Editor/EditorCore/VertexColorPalette.cs") state(2)
+Script is not up to date after domain reload: guid(0c96b34c870fc49b6b189786a55e14ad) path("Packages/com.unity.probuilder/Runtime/Core/ActionResult.cs") state(2)
+Script is not up to date after domain reload: guid(168b876617d5b904ab8d161bbcc20900) path("Packages/com.unity.probuilder/Editor/EditorCore/UVRenderOptions.cs") state(2)
+Script is not up to date after domain reload: guid(0af7522e3732400388ebc019d869caf2) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/OpenVertexPositionEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c04d9be0543234e9cbb340e7ee259a5c) path("Packages/com.unity.probuilder/Runtime/Core/PreferenceDictionary.cs") state(2)
+Script is not up to date after domain reload: guid(d42d456e720b1c5438d87059c69284bd) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/TriangulationConstraint.cs") state(2)
+Script is not up to date after domain reload: guid(8459d3ed1cc648cba5015df2ff4850cb) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectFaceRing.cs") state(2)
+Script is not up to date after domain reload: guid(624538515085b4f498dc59dc27eb69ce) path("Packages/com.unity.probuilder/Editor/EditorCore/DrawShapeTool.cs") state(2)
+Script is not up to date after domain reload: guid(d563a6b12a743cf4399b92cf5366da6f) path("Packages/com.unity.probuilder/External/Poly2Tri/Polygon/Polygon.cs") state(2)
+Script is not up to date after domain reload: guid(881b617b0cb15574f93592b7b6a3e373) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/DTSweepPointComparator.cs") state(2)
+Script is not up to date after domain reload: guid(945d633938915ec42a2e6da38708d8b3) path("Packages/com.unity.probuilder/Runtime/Shapes/Door.cs") state(2)
+Script is not up to date after domain reload: guid(cd856323da4211845ae7b4c7a54b294f) path("Packages/com.unity.probuilder/Runtime/Core/ProBuilderMeshFunction.cs") state(2)
+Script is not up to date after domain reload: guid(b2832c5edf831bd45a81ea86f2f3c0db) path("Packages/com.unity.probuilder/Editor/EditorCore/MenuOption.cs") state(2)
+Script is not up to date after domain reload: guid(e5d62e0d1462c4f02ae2aae1659cb748) path("Packages/com.unity.probuilder/Runtime/Core/ProBuilderSnapping.cs") state(2)
+Script is not up to date after domain reload: guid(d3ba8385f1f540519a3524dceb13733b) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/InsertEdgeLoop.cs") state(2)
+Script is not up to date after domain reload: guid(e41489573d46a4d039759c1808b22f3a) path("Packages/com.unity.probuilder/Editor/EditorCore/UndoUtility.cs") state(2)
+Script is not up to date after domain reload: guid(ec676d2a8ccecde4f8eb0d32aeaafb98) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/DelaunayTriangle.cs") state(2)
+Script is not up to date after domain reload: guid(0ab80081d3e2f274ba76a692cdcfa8d9) path("Packages/com.unity.progrids/Editor/ProGridsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(9b24935f60532d7428cbcb5df316e359) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/Extrude.cs") state(2)
+Script is not up to date after domain reload: guid(a49dc64944b24efab4e8dda777a3211a) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectEdgeRing.cs") state(2)
+Script is not up to date after domain reload: guid(3a9ebc9851a2d8e4c868fa97dbbb35f6) path("Packages/com.unity.probuilder/Editor/EditorCore/IconUtility.cs") state(2)
+Script is not up to date after domain reload: guid(3208ba508d5e047c7bd843fc986a4f7a) path("Packages/com.unity.probuilder/Runtime/Core/MeshUtility.cs") state(2)
+Script is not up to date after domain reload: guid(9f21d9e5e308b409f9173967b37d19be) path("Packages/com.unity.probuilder/Runtime/Core/IntVec2.cs") state(2)
+Script is not up to date after domain reload: guid(088aa88f028654951ae27130f3556aae) path("Packages/com.unity.probuilder/Runtime/Core/Submesh.cs") state(2)
+Script is not up to date after domain reload: guid(4ca7e8f303d863c40930ccc1085e6990) path("Packages/com.unity.probuilder/Editor/EditorCore/Pref.cs") state(2)
+Script is not up to date after domain reload: guid(ff4f787bd1deaee4d82db29948ed6099) path("Packages/com.unity.probuilder/Editor/EditorCore/BooleanEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6e4871d32a3aac4448c0c3f9e182f972) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Orientation.cs") state(2)
+Script is not up to date after domain reload: guid(ffea9638e10c9644aab23c2652f86279) path("Packages/com.unity.probuilder/Editor/EditorCore/TextureScaleTool.cs") state(2)
+Script is not up to date after domain reload: guid(071d390610ea548df87a9c03c370ced2) path("Packages/com.unity.probuilder/Runtime/Core/IntVec3.cs") state(2)
+Script is not up to date after domain reload: guid(8cefaab4396434cd9b6db510b6458a3d) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderEditorShortcuts.cs") state(2)
+Script is not up to date after domain reload: guid(20257f54bb007a547b7cb64d633a1664) path("Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/AssetIdRemapBuilderEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6965211c873de4048aa9043e5e287c73) path("Packages/com.unity.settings-manager/Editor/UserSettingsRepository.cs") state(2)
+Script is not up to date after domain reload: guid(8707cf6fb25b1438b9a0f476f93a76fe) path("Packages/com.unity.settings-manager/Editor/ISettingsRepository.cs") state(2)
+Script is not up to date after domain reload: guid(ffab696c539c4041848596918dd4590f) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/MergeObjects.cs") state(2)
+Script is not up to date after domain reload: guid(729d0f7265af462a8b41492704404f59) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/TriangulateFaces.cs") state(2)
+Script is not up to date after domain reload: guid(583290e7bd3b4094b5cd671ab87b7bb2) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderMeshPreview.cs") state(2)
+Script is not up to date after domain reload: guid(876d5900da5ecbb4885bf2be031e50e8) path("Packages/com.unity.progrids/Tests/Runtime/IgnoreSnapConditionalAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(aaf91fe98a345dc46b1839d422f87be2) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorShapeUtility.cs") state(2)
+Script is not up to date after domain reload: guid(afd663fb17a03f749915886536580b91) path("Packages/com.unity.probuilder/Editor/EditorCore/Model.cs") state(2)
+Script is not up to date after domain reload: guid(589c2adb27cec4b26849162d3b624642) path("Packages/com.unity.probuilder/Editor/EditorCore/ProbuilderScaleTool.cs") state(2)
+Script is not up to date after domain reload: guid(97626f417dcf4f68a68db312995f9e6b) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/ExtrudeEdges.cs") state(2)
+Script is not up to date after domain reload: guid(62ca02619442b364a81cca5a30c687d4) path("Packages/com.unity.progrids/Editor/Changelog.cs") state(2)
+Script is not up to date after domain reload: guid(d1e5ea3aa2689d948af3903d68647ca0) path("Packages/com.unity.probuilder/Editor/EditorCore/UVEditor.cs") state(2)
+Script is not up to date after domain reload: guid(d3c815396f3a64c2d925a2100e08e093) path("Packages/com.unity.settings-manager/Editor/Settings.cs") state(2)
+Script is not up to date after domain reload: guid(a00a369d82c4f7f47ae4dc5c2be474b8) path("Packages/com.unity.progrids/Runtime/IgnoreSnapAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(924ccbaae96a57b438f256c6e54c1df8) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectLoop.cs") state(2)
+Script is not up to date after domain reload: guid(e0a94bc67627046b3a6a1f7ebfeafa2a) path("Packages/com.unity.progrids/Editor/PlayModeStateListener.cs") state(2)
+Script is not up to date after domain reload: guid(3ee68c576d0d746729c62f6561e44b27) path("Packages/com.unity.probuilder/Runtime/Shapes/Cylinder.cs") state(2)
+Script is not up to date after domain reload: guid(14789abc21c8f4551995149f67010e23) path("Packages/com.unity.probuilder/External/CSG/Classes/Model.cs") state(2)
+Script is not up to date after domain reload: guid(90907e6bfb6afd145986768f6095c76d) path("Packages/com.unity.probuilder/Editor/EditorCore/PreferencesUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(136c7ff4a0ec419280b8df0d260180d0) path("Packages/com.unity.probuilder/External/CSG/CSG.cs") state(2)
+Script is not up to date after domain reload: guid(0b49a83783b3e5944b25d6c66eaa11e9) path("Packages/com.unity.probuilder/Runtime/Core/Math.cs") state(2)
+Script is not up to date after domain reload: guid(cd0eb60dd72b74385a28317c44ac6377) path("Packages/com.unity.probuilder/Runtime/Core/Face.cs") state(2)
+Script is not up to date after domain reload: guid(a419cef8f67fa48b8a2420ecc4ea4936) path("Packages/com.unity.probuilder/Runtime/Core/MaterialUtility.cs") state(2)
+Script is not up to date after domain reload: guid(72b3f039440c77d4694f2f4e12ab229a) path("Packages/com.unity.probuilder/Editor/EditorCore/SelectionUtility.cs") state(2)
+Script is not up to date after domain reload: guid(a17a8a25b5ef051479efd66b56f58823) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorUtility.cs") state(2)
+Script is not up to date after domain reload: guid(99a28d28a160b4da78802caf2a3484a0) path("Packages/com.unity.probuilder/Editor/EditorCore/EditShapeTool.cs") state(2)
+Script is not up to date after domain reload: guid(146403a091a2c4d61976892730fa0c8d) path("Packages/com.unity.probuilder/Runtime/MeshOperations/Triangulation.cs") state(2)
+Script is not up to date after domain reload: guid(19a5e9b3c4e58415bbdc5ea80c5ba88f) path("Packages/com.unity.probuilder/Runtime/Core/WingedEdge.cs") state(2)
+Script is not up to date after domain reload: guid(daa26ef7aa9c82a47a06ddb6eefc0674) path("Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/AssetIdRemapBuilderTreeView.cs") state(2)
+Script is not up to date after domain reload: guid(71cfb4d65045470facb2a2e1e41bec03) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/FlipFaceNormals.cs") state(2)
+Script is not up to date after domain reload: guid(563a1db348c114475a2d8289cc3e5a84) path("Packages/com.unity.probuilder/Runtime/Core/Edge.cs") state(2)
+Script is not up to date after domain reload: guid(99e7c5113a4eb574398293fbd74a61a6) path("Packages/com.unity.probuilder/Editor/EditorCore/ObjExporter.cs") state(2)
+Script is not up to date after domain reload: guid(12d2df8ff0d1e417e97df69e20c4c81b) path("Packages/com.unity.probuilder/Runtime/MeshOperations/MeshValidation.cs") state(2)
+Script is not up to date after domain reload: guid(6832442ae76f440d9a8a532b98ebfc57) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorMaterialUtility.cs") state(2)
+Script is not up to date after domain reload: guid(1376ed33245911e48ab91c560798f510) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/SetCollider.cs") state(2)
+Script is not up to date after domain reload: guid(1fa9c1c880d9b724f978f610d18852e7) path("Packages/com.unity.probuilder/Editor/EditorCore/SmoothGroupEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e835b73676a6e469aaac98a8b9ff3a48) path("Packages/com.unity.progrids/Tests/Editor/SnapOnSelectedAxisOnly.cs") state(2)
+Script is not up to date after domain reload: guid(9652f5ea32e3966499300efa0597ba92) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Util/PolygonGenerator.cs") state(2)
+Script is not up to date after domain reload: guid(48543f8899b046f69c530e1c1a54e5cd) path("Packages/com.unity.probuilder/Runtime/Core/ShapeGenerator.cs") state(2)
+Script is not up to date after domain reload: guid(361cb9f8460027f4a88a1b9610de18c0) path("Packages/com.unity.progrids/Editor/ScenePreferencesWindow.cs") state(2)
+Script is not up to date after domain reload: guid(5ef681a72ba0a044aa8da69030116d54) path("Packages/com.unity.probuilder/Runtime/Shapes/Cone.cs") state(2)
+Script is not up to date after domain reload: guid(65392811987f9438d8e3d2510255814f) path("Packages/com.unity.probuilder/Runtime/Core/BuiltinMaterials.cs") state(2)
+Script is not up to date after domain reload: guid(2734476e9b233c14987be5fbd0b43264) path("Packages/com.unity.probuilder/Runtime/Core/MeshHandles.cs") state(2)
+Script is not up to date after domain reload: guid(df1c6ba8c6074cd4872ff79d66cc49f5) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectFaceLoop.cs") state(2)
+Script is not up to date after domain reload: guid(319d9808ed35cae4ca212b4b97a9ee0b) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/TriangulationMode.cs") state(2)
+Script is not up to date after domain reload: guid(8e1eca4be91601347969177c85897f52) path("Packages/com.unity.probuilder/Editor/EditorCore/IconImporter.cs") state(2)
+Script is not up to date after domain reload: guid(8c1d6bd74068a5242b4a72adf38b704b) path("Packages/com.unity.probuilder/Editor/EditorCore/PreferencesInternal.cs") state(2)
+Script is not up to date after domain reload: guid(fdbc8889effe4c9e82971613ad25e182) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectVertexColor.cs") state(2)
+Script is not up to date after domain reload: guid(1f8949d910842a4418d15c6bc1749be5) path("Packages/com.unity.progrids/Editor/SemVer.cs") state(2)
+Script is not up to date after domain reload: guid(601f62929862ecb48956dc2dca0a2498) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/NearestNeighbourList.cs") state(2)
+Script is not up to date after domain reload: guid(05147f3a976fb174d987bc71dc70dee2) path("Packages/com.unity.probuilder/Editor/EditorCore/MenuItems.cs") state(2)
+Script is not up to date after domain reload: guid(0baa0b710695b7441836813416aa41af) path("Packages/com.unity.probuilder/Editor/MenuActions/Interaction/ToggleXRay.cs") state(2)
+Script is not up to date after domain reload: guid(066d50a96f4a480fac834bf3b64a8c26) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/BridgeEdges.cs") state(2)
+Script is not up to date after domain reload: guid(6ccb8b5f00388f545b4b986d5149d926) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/TriangulationDebugContext.cs") state(2)
+Script is not up to date after domain reload: guid(9264fc220d4aaf645b44e788499db0db) path("Packages/com.unity.probuilder/Editor/EditorCore/MenuAction.cs") state(2)
+Script is not up to date after domain reload: guid(287e3d97419a8431098a54977c657d14) path("Packages/com.unity.probuilder/Runtime/Core/UvUnwrapping.cs") state(2)
+Script is not up to date after domain reload: guid(c3adccdd46845df47a5d11429dac1f82) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorMeshUtility.cs") state(2)
+Script is not up to date after domain reload: guid(1ececafedc41a4b4bb1be308a1512857) path("Packages/com.unity.probuilder/Editor/EditorCore/DimensionsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(3834e980d6387ed4eb6bb9461aba647f) path("Packages/com.unity.probuilder/Runtime/Shapes/Pipe.cs") state(2)
+Script is not up to date after domain reload: guid(487d22f1515eb1740a43a577b39ab977) path("Packages/com.unity.probuilder/Runtime/Shapes/Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(0dc75b34a006d47f48c004031e6ef14d) path("Packages/com.unity.settings-manager/Editor/UserSettingsProvider.cs") state(2)
+Script is not up to date after domain reload: guid(906ae4b0ce907194cb4d1d255e03675b) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Sets/PointSet.cs") state(2)
+Script is not up to date after domain reload: guid(396694d6dbd4734419cea5be4a942c9a) path("Packages/com.unity.probuilder/External/StlExporter/Code/pb_Stl.cs") state(2)
+Script is not up to date after domain reload: guid(cc401b52b64c4b7b87078d8ae3e29b68) path("Packages/com.unity.probuilder/Editor/MenuActions/Export/ExportAsset.cs") state(2)
+Script is not up to date after domain reload: guid(72ae47ebb978a4f6fad1a2ba92c3c110) path("Packages/com.unity.probuilder/Runtime/Core/ObjectPool.cs") state(2)
+Script is not up to date after domain reload: guid(054265503d1c00b4ebd680d24b2fae37) path("Packages/com.unity.probuilder/Runtime/Shapes/Sphere.cs") state(2)
+Script is not up to date after domain reload: guid(77b34bf9fb2a49f6a5d0d0117bcc4c46) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/GrowSelection.cs") state(2)
+Script is not up to date after domain reload: guid(8e2e054ed623847d29efb1262605e8ef) path("Packages/com.unity.settings-manager/Editor/PackageSettingsRepository.cs") state(2)
+Script is not up to date after domain reload: guid(09802f6381a8fb2478f18a624b459ff8) path("Packages/com.unity.probuilder/Editor/EditorCore/IHasPreferences.cs") state(2)
+Script is not up to date after domain reload: guid(dfce99e9d622b416d8522fc504aa4459) path("Packages/com.unity.probuilder/Runtime/Core/FaceRebuildData.cs") state(2)
+Script is not up to date after domain reload: guid(2e82491da45686848bf17df39975ff3c) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorToolbarMenuItems.cs") state(2)
+Script is not up to date after domain reload: guid(89809d92ed2419a43b46b08b6f4237ba) path("Packages/com.unity.probuilder/Editor/EditorCore/VersionValidator.cs") state(2)
+Script is not up to date after domain reload: guid(1ca002da428252441b92f28d83c8a65f) path("Packages/com.unity.probuilder/Runtime/Shapes/ProBuilderShape.cs") state(2)
+Script is not up to date after domain reload: guid(2197ea2611109104aa25635ed7b59bcb) path("Packages/com.unity.probuilder/Editor/EditorCore/DestroyListener.cs") state(2)
+Script is not up to date after domain reload: guid(2e52c205e35f30d4c81ff62d3f94e234) path("Packages/com.unity.probuilder/Runtime/Core/HandleOrientation.cs") state(2)
+Script is not up to date after domain reload: guid(9e11b000caeb5451a8d9160606edb8e5) path("Packages/com.unity.probuilder/Runtime/Core/InternalUtility.cs") state(2)
+Script is not up to date after domain reload: guid(561f179dea8740f41a4a539592427f2b) path("Packages/com.unity.probuilder/Addons/Fbx.cs") state(2)
+Script is not up to date after domain reload: guid(bb4dcd11679b340ee8a7afb51cb0ccfc) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(1c567d9c5b825d24ba6a00bef45ec0dc) path("Packages/com.unity.probuilder/Runtime/Core/Changelog.cs") state(2)
+Script is not up to date after domain reload: guid(df3a4cb75c674491b6a359529d7fbd82) path("Packages/com.unity.probuilder/Editor/MenuActions/Interaction/ToggleDragSelectionMode.cs") state(2)
+Script is not up to date after domain reload: guid(7208f6e564fc928478322837a693d724) path("Packages/com.unity.probuilder/Editor/EditorCore/TooltipContent.cs") state(2)
+Script is not up to date after domain reload: guid(a88380604e5234adaa98158c5e10950c) path("Packages/com.unity.probuilder/Runtime/Core/HandleConstraint2D.cs") state(2)
+Script is not up to date after domain reload: guid(31b2d23ee6bb16a42bdc704a0b1df42c) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorHandleUtility.cs") state(2)
+Script is not up to date after domain reload: guid(daab597c96b98b840aff1e885c4ca0f0) path("Packages/com.unity.probuilder/Runtime/Core/SemVer.cs") state(2)
+Script is not up to date after domain reload: guid(a6bc50937fe34666940ca23931be5344) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/SetPivotToSelection.cs") state(2)
+Script is not up to date after domain reload: guid(dda436a9c8bbd4d109478acf25cd48d8) path("Packages/com.unity.probuilder/Runtime/Core/ColorPalette.cs") state(2)
+Script is not up to date after domain reload: guid(da5baec4bf414efb91d2253bef40dd19) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/SmartSubdivide.cs") state(2)
+Script is not up to date after domain reload: guid(b360b08870ee97249b28c408f0d1e0d8) path("Packages/com.unity.probuilder/Editor/EditorCore/FileUtility.cs") state(2)
+Script is not up to date after domain reload: guid(4ac8731d7c634e5489628370b54f476c) path("Packages/com.unity.probuilder/Runtime/Core/SharedVertex.cs") state(2)
+Script is not up to date after domain reload: guid(31c962280094e7146b53cd8abdfa5957) path("Packages/com.unity.progrids/Runtime/IgnoreSnap.cs") state(2)
+Script is not up to date after domain reload: guid(66b1c4a9ec825c7458f935aae34d66b1) path("Packages/com.unity.progrids/Editor/ToggleContent.cs") state(2)
+Script is not up to date after domain reload: guid(131b1d3bbc440834c88a294085679174) path("Packages/com.unity.probuilder/Runtime/Shapes/Torus.cs") state(2)
+Script is not up to date after domain reload: guid(9b0cf5260e6d70b428dab29748b1b3fe) path("Packages/com.unity.probuilder/Runtime/Core/Normal.cs") state(2)
+Script is not up to date after domain reload: guid(87dbab7c5aec0498a8ef34d8490bc9f6) path("Packages/com.unity.probuilder/Editor/EditorCore/ProbuilderRotateTool.cs") state(2)
+Script is not up to date after domain reload: guid(4cc9cf63877040dea25dc65e54f3c9d5) path("Packages/com.unity.probuilder/Editor/EditorCore/ShapeMenuItems.cs") state(2)
+Script is not up to date after domain reload: guid(69fbd00be8d904b3da640e502905c345) path("Packages/com.unity.probuilder/Runtime/Core/Entity.cs") state(2)
+Script is not up to date after domain reload: guid(d3b407d7cf143004f8e7f9de0969d275) path("Packages/com.unity.progrids/Editor/ProGridsEnums.cs") state(2)
+Script is not up to date after domain reload: guid(71908286421424641b33861431bc9b9d) path("Packages/com.unity.probuilder/Runtime/Core/EdgeLookup.cs") state(2)
+Script is not up to date after domain reload: guid(3e99f90a32784f4d9ff62732e1265f23) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/SmartConnect.cs") state(2)
+Script is not up to date after domain reload: guid(9be31b6177ca0453e928692a20b33b2c) path("Packages/com.unity.probuilder/Runtime/MeshOperations/ElementSelection.cs") state(2)
+Script is not up to date after domain reload: guid(974a571913e44c97950e630fdbd7f879) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderToolManager.cs") state(2)
+Script is not up to date after domain reload: guid(c42a9b51604094d6bbfebd218854a539) path("Packages/com.unity.probuilder/Runtime/Core/WingedEdgeEnumerator.cs") state(2)
+Script is not up to date after domain reload: guid(d9ed04c4f3db58d488f75533eee62283) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/PriorityQueue.cs") state(2)
+Script is not up to date after domain reload: guid(2e8a07bcd05f44a0aa578517e042d91b) path("Packages/com.unity.probuilder/Runtime/Core/Bounds2D.cs") state(2)
+Script is not up to date after domain reload: guid(518e5a76add435648813be98dd71e2f8) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/HyperRect.cs") state(2)
+Script is not up to date after domain reload: guid(caa73878d8fb64ec1b9ba323a2158672) path("Packages/com.unity.probuilder/Runtime/MeshOperations/ExtrudeElements.cs") state(2)
+Script is not up to date after domain reload: guid(3e8bafb60e2ac40ef92c924f855c65b3) path("Packages/com.unity.probuilder/Runtime/Core/HandleUtility.cs") state(2)
+Script is not up to date after domain reload: guid(428fa7a76260b497d8306bc5162aa463) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorSnapping.cs") state(2)
+Script is not up to date after domain reload: guid(c8a5a39fbad44b97b5f27e8a2e28aecf) path("Packages/com.unity.probuilder/Editor/EditorCore/pb_ObjectArray.cs") state(2)
+Script is not up to date after domain reload: guid(171bb48d73467244c9487173c12e2c46) path("Packages/com.unity.probuilder/Editor/EditorCore/EntityVisibility.cs") state(2)
+Script is not up to date after domain reload: guid(e7409d52cc9eb094db503a26dd4ae064) path("Packages/com.unity.probuilder/Editor/EditorCore/PolyShapeTool.cs") state(2)
+Script is not up to date after domain reload: guid(4ce00895d9eb2924f8f0c484eb3879ce) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/SetTrigger.cs") state(2)
+Script is not up to date after domain reload: guid(40af14f295f2434f9cfda219da2645a0) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/OpenSmoothingEditor.cs") state(2)
+Script is not up to date after domain reload: guid(aac023407bdc9df4db32c6aa0c29ef25) path("Packages/com.unity.probuilder/Runtime/MeshOperations/MeshTransform.cs") state(2)
+Script is not up to date after domain reload: guid(98bb5d899143343ec8ccadebc268824c) path("Packages/com.unity.probuilder/Runtime/Core/ColorUtility.cs") state(2)
+Script is not up to date after domain reload: guid(bedfc9d5ebff70f4896001f60a9b2790) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/TriangulationUtil.cs") state(2)
+Script is not up to date after domain reload: guid(171420d62f80b4556a8833c039a00a3c) path("Packages/com.unity.probuilder/Runtime/Core/Smoothing.cs") state(2)
+Script is not up to date after domain reload: guid(59e0185ce9cbd4517a2762cb16e1f690) path("Packages/com.unity.probuilder/Runtime/MeshOperations/VertexEditing.cs") state(2)
+Script is not up to date after domain reload: guid(7b0368f3d533f4c379d9a83478864e0d) path("Packages/com.unity.probuilder/Runtime/Core/BezierShape.cs") state(2)
+Script is not up to date after domain reload: guid(709975e9e21e4a52a8ea44cd4a779feb) path("Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/AssetTreeView.cs") state(2)
+Script is not up to date after domain reload: guid(415a296d21e75094fbcad592c4303607) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/NewPolyShapeToggle.cs") state(2)
+Script is not up to date after domain reload: guid(7ea67431821494cfca380c0e07258751) path("Packages/com.unity.settings-manager/Editor/Attributes.cs") state(2)
+Script is not up to date after domain reload: guid(4d1e3d0e26dcfcb438a45fbbf9f23e92) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/CollapseVertices.cs") state(2)
+Script is not up to date after domain reload: guid(0b8caa3be45dde847b41aafc7d7db796) path("Packages/com.unity.probuilder/Runtime/MeshOperations/QuadUtility.cs") state(2)
+Script is not up to date after domain reload: guid(f9e45af82f3d1428f9ccc2ac15f74603) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ac7a7f49f26f45b29857e71b0d156fff) path("Packages/com.unity.probuilder/Editor/MenuActions/Export/ExportPly.cs") state(2)
+Script is not up to date after domain reload: guid(b0c8bf4cfa4d461cb01b12bb9e3e42f9) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/DeleteFaces.cs") state(2)
+Script is not up to date after domain reload: guid(91e17c4725d568e4a8ade4766f774bfc) path("Packages/com.unity.progrids/Editor/Snapping.cs") state(2)
+Script is not up to date after domain reload: guid(9ec02f5604afd41069b873611f60c719) path("Packages/com.unity.progrids/Editor/ProGridsSettingsProvider.cs") state(2)
+Script is not up to date after domain reload: guid(a13a61fc9c33c4835beb1b3728c1718a) path("Packages/com.unity.probuilder/Editor/MenuActions/Interaction/ToggleHandlePivotPoint.cs") state(2)
+Script is not up to date after domain reload: guid(77656e4f6ab6544caa81cbd3e5784e03) path("Packages/com.unity.probuilder/Runtime/Core/RaycastHit.cs") state(2)
+Script is not up to date after domain reload: guid(2fa4bbd1a7ccee24783998770d56522e) path("Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/AssetIdRemapEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e8fa221ea996bd7459f869e6d809a95d) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/IKdTree.cs") state(2)
+Script is not up to date after domain reload: guid(add8532bafe747b88ea53556bd2e74e8) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/FlipObjectNormals.cs") state(2)
+Script is not up to date after domain reload: guid(172d21c82259a0c428b3924edd908358) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/DuplicateFaces.cs") state(2)
+Script is not up to date after domain reload: guid(08b58b81e1014e9a804abb4cd35c2eb3) path("Packages/com.unity.probuilder/Runtime/Core/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(5c72c2f0fd523463292dc6eeb1fd7ab0) path("Packages/com.unity.probuilder/Runtime/Core/Clipping.cs") state(2)
+Script is not up to date after domain reload: guid(3abdb0569285bbf4389d38655d5a90a3) path("Packages/com.unity.probuilder/Runtime/Core/PivotPoint.cs") state(2)
+Script is not up to date after domain reload: guid(563aeff009644264e815e6de1439e784) path("Packages/com.unity.probuilder/Editor/EditorCore/LicenseEditor.cs") state(2)
+Script is not up to date after domain reload: guid(eba60849bb2104e85af3d2e25b022196) path("Packages/com.unity.probuilder/Runtime/Core/Spline.cs") state(2)
+Script is not up to date after domain reload: guid(ffe60d522a0a4b0489a5bfe4bb6b4fb1) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectSmoothingGroup.cs") state(2)
+Script is not up to date after domain reload: guid(ff8eab1edc549c8489031e8b952c1b56) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorToolbarLoader.cs") state(2)
+Script is not up to date after domain reload: guid(9d6fbeb339bff0f4cb3744bd60aec40f) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/AdvancingFrontNode.cs") state(2)
+Script is not up to date after domain reload: guid(389ebe3277e864eb2bb6f14edb419a33) path("Packages/com.unity.probuilder/External/StlExporter/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(36dfd625ac38b4b62a04264b3819dc42) path("Packages/com.unity.probuilder/Runtime/Core/IntVec4.cs") state(2)
+Script is not up to date after domain reload: guid(4daa0ba8c6e93d54a9b542d76b235c55) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/Math/TypeMath.cs") state(2)
+Script is not up to date after domain reload: guid(6420831531bc2054281143153f7d6659) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorSceneViewPicker.cs") state(2)
+Script is not up to date after domain reload: guid(4eb4b507ff52e40f58f68c2065e32636) path("Packages/com.unity.probuilder/Runtime/Core/TriggerBehaviour.cs") state(2)
+Script is not up to date after domain reload: guid(a629cb73b331b40449fd411043caf7d3) path("Packages/com.unity.probuilder/External/CSG/Classes/VertexUtility.cs") state(2)
+Script is not up to date after domain reload: guid(e985069a91a74567a338b55beddbf74c) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/OpenUVEditor.cs") state(2)
+Script is not up to date after domain reload: guid(bdb300e663dad44ca9f0a74c96e6f937) path("Packages/com.unity.progrids/Editor/EditorUtility.cs") state(2)
+Script is not up to date after domain reload: guid(5cf10ee5e4b44eaca6e769bf235f7f5a) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/MirrorObjects.cs") state(2)
+Script is not up to date after domain reload: guid(48b3897a5481441a8c9468e28fd54c53) path("Packages/com.unity.probuilder/Editor/MenuActions/Export/ExportStlAscii.cs") state(2)
+Script is not up to date after domain reload: guid(c33579cdea5c8442e90e443cf7bcfee9) path("Packages/com.unity.probuilder/Editor/EditorCore/Version.cs") state(2)
+Script is not up to date after domain reload: guid(483554fdb1324da4ead26f33de2c9990) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/Math/FloatMath.cs") state(2)
+Script is not up to date after domain reload: guid(c7eb6fea243bbe045b0d90f776fe4013) path("Packages/com.unity.probuilder/Editor/EditorCore/MenuToolToggle.cs") state(2)
+Script is not up to date after domain reload: guid(9c90a3667d9b2154bb538feb303989f8) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/DTSweepEdgeEvent.cs") state(2)
+Script is not up to date after domain reload: guid(9dc4bcf4f01eb4e34a13eb79da442b28) path("Packages/com.unity.progrids/Editor/ProGridsSceneToolbar.cs") state(2)
+Script is not up to date after domain reload: guid(d1266b9f3f7ac478b97ce34f935eadc3) path("Packages/com.unity.probuilder/Editor/EditorCore/MeshAndElementSelection.cs") state(2)
+Script is not up to date after domain reload: guid(1cd423070c2f8094db80d14ac61e4a89) path("Packages/com.unity.probuilder/Runtime/Core/SelectionPickerRenderer.cs") state(2)
+Script is not up to date after domain reload: guid(2f90915a295ab524097b6e004b64d015) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorEnum.cs") state(2)
+Script is not up to date after domain reload: guid(d7bdf1318dc164d50a2e3c37cb09494a) path("Packages/com.unity.progrids/Tests/Editor/SnapOnAllAxes.cs") state(2)
+Script is not up to date after domain reload: guid(19fd4a6987194c66bf04e55e19aa466b) path("Packages/com.unity.probuilder/Editor/MenuActions/Interaction/ToggleDragRectMode.cs") state(2)
+Script is not up to date after domain reload: guid(c6d73444bb8cc9b468d5ff190d7de759) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/ConnectVertices.cs") state(2)
+Script is not up to date after domain reload: guid(d14f7e2694bf3944989ac7742561181c) path("Packages/com.unity.probuilder/Editor/EditorCore/CutTool.cs") state(2)
+Script is not up to date after domain reload: guid(b9ed23c5ac29d4227a634affc39ad4a4) path("Packages/com.unity.probuilder/Editor/EditorCore/PositionTool.cs") state(2)
+Script is not up to date after domain reload: guid(23bf380528bb14b24942fe9d5e5a3abc) path("Packages/com.unity.probuilder/Runtime/Core/Transform2D.cs") state(2)
+Script is not up to date after domain reload: guid(1edc484acd18fdb42b4421d1b707caaa) path("Packages/com.unity.probuilder/Editor/EditorCore/ToolbarGroup.cs") state(2)
+Script is not up to date after domain reload: guid(166872da3f949e94e9594fb2de14257d) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderShapeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(bb48793c33304c1ca4300c46c9c13b46) path("Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/PackageImporter.cs") state(2)
+Script is not up to date after domain reload: guid(b2fe48040b5714c059f9d4a7796cafd7) path("Packages/com.unity.probuilder/Runtime/Core/TransformUtility.cs") state(2)
+Script is not up to date after domain reload: guid(a08405bf933b15f4882645f9cb359193) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorStyles.cs") state(2)
+Script is not up to date after domain reload: guid(53c376f349984575aa8d0dfd15cddc99) path("Packages/com.unity.probuilder/Editor/StateMachines/ShapeState_InitShape.cs") state(2)
+Script is not up to date after domain reload: guid(cd9b9131766d54225a24d2221d1f49b5) path("Packages/com.unity.probuilder/Runtime/Core/IHasDefault.cs") state(2)
+Script is not up to date after domain reload: guid(a893ddeb6fc42463f9d81a87e03c8455) path("Packages/com.unity.probuilder/Runtime/Core/SelectionPickerSettings.cs") state(2)
+Script is not up to date after domain reload: guid(4c7381a66e715734f82749b2e115722c) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/IPriorityQueue.cs") state(2)
+Script is not up to date after domain reload: guid(d2c71b118edf0476f868fa213864aac6) path("Packages/com.unity.probuilder/Editor/EditorCore/Experimental.cs") state(2)
+Script is not up to date after domain reload: guid(d0b5cffbc2ad41cb84067b39dedada94) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/ProBuilderize.cs") state(2)
+Script is not up to date after domain reload: guid(a943be722733e6741978a775d47f8e2c) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/DTSweepContext.cs") state(2)
+Script is not up to date after domain reload: guid(af7cbb59029d2420c960fa64da335888) path("Packages/com.unity.probuilder/Runtime/Core/SimpleTuple.cs") state(2)
+Script is not up to date after domain reload: guid(fc2e025c327cbba4ca8373dd8923ff88) path("Packages/com.unity.probuilder/External/Poly2Tri/Utility/FixedArray3.cs") state(2)
+Script is not up to date after domain reload: guid(dd9d2fd81ebf44cca2949d833dd3a295) path("Packages/com.unity.probuilder/Editor/StateMachines/ShapeState_DrawBaseShape.cs") state(2)
+Script is not up to date after domain reload: guid(2799d938bc097b0478b150b315487a18) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/Math/ITypeMath.cs") state(2)
+Script is not up to date after domain reload: guid(e4919131c75b7914b99be1a9252658bc) path("Packages/com.unity.probuilder/Editor/EditorCore/VertexManipulationTool.cs") state(2)
+Script is not up to date after domain reload: guid(0108f8c9cba0ec64cb96fa884a3478bd) path("Packages/com.unity.probuilder/Editor/EditorCore/ReflectionUtility.cs") state(2)
+Script is not up to date after domain reload: guid(2b3f77c5dfa698a478ad5d291674b8a5) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/DTSweep.cs") state(2)
+Script is not up to date after domain reload: guid(f659ed41facdbb947a1ed57354dee7c8) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderAnalytics.cs") state(2)
+Script is not up to date after domain reload: guid(b38e0917ff1e4a54292a5137af265542) path("Packages/com.unity.probuilder/Editor/EditorCore/LightmapUVEditor.cs") state(2)
+Script is not up to date after domain reload: guid(1f26c4d173d1ff0488349210afd77fa2) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorToolsContexts.cs") state(2)
+Script is not up to date after domain reload: guid(bb7d601e6d679aa4dbd856d20dda3f74) path("Packages/com.unity.probuilder/Editor/EditorCore/LogEditor.cs") state(2)
+Script is not up to date after domain reload: guid(2b43eb0a521a4a6a90bde45149e1c656) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/OpenMaterialEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c24f57f3f3c554e51ab791526e33e337) path("Packages/com.unity.settings-manager/Editor/UserSettings.cs") state(2)
+Script is not up to date after domain reload: guid(fcbb190e55f214989942c67a845676cf) path("Packages/com.unity.probuilder/Runtime/Core/Triangle.cs") state(2)
+Script is not up to date after domain reload: guid(92edb19c798910a47b4dec2660fcd96d) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Sets/ConstrainedPointSet.cs") state(2)
+Script is not up to date after domain reload: guid(f5f37a0a7c6f54d4995a8f0806351e89) path("Packages/com.unity.probuilder/Runtime/MeshOperations/UV/TextureStitching.cs") state(2)
+Script is not up to date after domain reload: guid(13a653f5b84336c45b2c00b570775a87) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/KdTree.cs") state(2)
+Script is not up to date after domain reload: guid(5e41f6d30b7fa6543a40193098cf4eae) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Util/PointGenerator.cs") state(2)
+Script is not up to date after domain reload: guid(29c44195d73b34ee98215150a8031c2c) path("Packages/com.unity.probuilder/Runtime/Core/ShapeFactory.cs") state(2)
+Script is not up to date after domain reload: guid(53d27af1247a7d547aa00100fae732a0) path("Packages/com.unity.probuilder/Editor/MenuActions/Interaction/ToggleHandleOrientation.cs") state(2)
+Script is not up to date after domain reload: guid(7fd9f5ac1b5cea54386d6497a518c29f) path("Packages/com.unity.probuilder/Editor/EditorCore/TextureTool.cs") state(2)
+Script is not up to date after domain reload: guid(2a29f58947000b048a0347b48bd16304) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderSettings.cs") state(2)
+Script is not up to date after domain reload: guid(445a15c2908f1374a8aaad33541a66b2) path("Packages/com.unity.progrids/Tests/Runtime/IgnoreSnapInterface.cs") state(2)
+Script is not up to date after domain reload: guid(957c62bbae19ee54cb800714912d2a2a) path("Packages/com.unity.probuilder/Runtime/Core/ProBuilderMeshSelection.cs") state(2)
+Script is not up to date after domain reload: guid(2871f338d8894523bcde8a078df337c2) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/FillHole.cs") state(2)
+Script is not up to date after domain reload: guid(3b6cb19e1fd01b64487828605cda5643) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderSettingsProvider.cs") state(2)
+Script is not up to date after domain reload: guid(a0ae93cadae49f8488c27d0d40da0e99) path("Packages/com.unity.probuilder/Editor/EditorCore/Lightmapping.cs") state(2)
+Script is not up to date after domain reload: guid(23fb6d4a102f4c2188ef8afe61eb58e4) path("Packages/com.unity.probuilder/Editor/MenuActions/Export/ExportObj.cs") state(2)
+Script is not up to date after domain reload: guid(5963564d485624ab6ad4547f9451dbe6) path("Packages/com.unity.probuilder/Runtime/MeshOperations/MeshImporter.cs") state(2)
+Script is not up to date after domain reload: guid(217ead35f8b54dcda0676459e0d25fdf) path("Packages/com.unity.probuilder/Editor/StateMachines/ShapeState_DrawHeightShape.cs") state(2)
+Script is not up to date after domain reload: guid(1da3e972186d944ca81f7581615c650d) path("Packages/com.unity.probuilder/Runtime/Core/EdgeUtility.cs") state(2)
+Script is not up to date after domain reload: guid(fdadef59afbc0447793550ae30addc32) path("Packages/com.unity.probuilder/Runtime/Core/AutoUnwrapSettings.cs") state(2)
+Script is not up to date after domain reload: guid(8b2cff15c28de0f4ba38eafc29cd64fa) path("Packages/com.unity.progrids/Editor/PreferenceKeys.cs") state(2)
+Script is not up to date after domain reload: guid(d6658a80b0b3b964281a5312b39c9203) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/DTSweepBasin.cs") state(2)
+Script is not up to date after domain reload: guid(92c923034fe494e2d83cc342e7f8020b) path("Packages/com.unity.probuilder/Runtime/Core/BezierPoint.cs") state(2)
+Script is not up to date after domain reload: guid(6f435ddc17924dd18782195e161766ae) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectHole.cs") state(2)
+Script is not up to date after domain reload: guid(4e7e1880876747d1823604bc506e3772) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/FlipFaceEdge.cs") state(2)
+Script is not up to date after domain reload: guid(22bc27ec00c948759f18d3b55ad227eb) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/NewShapeToggle.cs") state(2)
+Script is not up to date after domain reload: guid(5fb3641deade84f238d59ad03971b64c) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/OffsetElements.cs") state(2)
+Script is not up to date after domain reload: guid(0c5b58425874c468e91bd42508d26f0b) path("Packages/com.unity.probuilder/Runtime/Core/Vertex.cs") state(2)
+Script is not up to date after domain reload: guid(3d263593a085cdf469778e9ea07ba483) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/ITriangulatable.cs") state(2)
+Script is not up to date after domain reload: guid(659601bba69c8e747bcc79ca9e877a2f) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/PointOnEdgeException.cs") state(2)
+Script is not up to date after domain reload: guid(8704e3cfa2526d34baf80d67fda2aa11) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectRing.cs") state(2)
+Script is not up to date after domain reload: guid(bb977b126bc1b4f15813dcf9da9bb600) path("Packages/com.unity.probuilder/Runtime/Core/PolyShape.cs") state(2)
+Script is not up to date after domain reload: guid(9f685c26016f847298dc0af81e9322c3) path("Packages/com.unity.probuilder/Runtime/Shapes/Stairs.cs") state(2)
+Script is not up to date after domain reload: guid(a9809eb838f424cce87ddc1b066c4f1a) path("Packages/com.unity.probuilder/Editor/EditorCore/ProbuilderMoveTool.cs") state(2)
+Script is not up to date after domain reload: guid(13fe1d05e56c65b4ca8c935f648e6cbb) path("Packages/com.unity.probuilder/Runtime/Core/Normals.cs") state(2)
+Script is not up to date after domain reload: guid(ea5ea1cec364039478a51772a04726e0) path("Packages/com.unity.probuilder/Runtime/Core/UnwrapParameters.cs") state(2)
+Script is not up to date after domain reload: guid(9a0bfb7745b9acb4498a724deec39aec) path("Packages/com.unity.probuilder/Editor/EditorCore/VertexOnFaceEditor.cs") state(2)
+Script is not up to date after domain reload: guid(158fff462a95744008bbad18ab5e029e) path("Packages/com.unity.probuilder/Runtime/MeshOperations/Bevel.cs") state(2)
+Script is not up to date after domain reload: guid(11887933ce4b13e4f9f5ec4163298397) path("Packages/com.unity.probuilder/Runtime/Core/ArrayUtility.cs") state(2)
+Script is not up to date after domain reload: guid(bed1bc9741072a14ebe8da808930d75b) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderMenuActionAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(081df46fba1da4194b5f8c7fa73446e0) path("Packages/com.unity.probuilder/Runtime/MeshOperations/ConnectElements.cs") state(2)
+Script is not up to date after domain reload: guid(3033ae68453f7e54fa868c2610c9bc7d) path("Packages/com.unity.probuilder/Editor/MenuToggles/Geometry/CutToolToggle.cs") state(2)
+Script is not up to date after domain reload: guid(908a5a36f516c3048abadede5920d5d7) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/KdTreeNode.cs") state(2)
+Script is not up to date after domain reload: guid(4e5c2292defe6460881281240c415f3d) path("Packages/com.unity.probuilder/Runtime/Core/VectorHash.cs") state(2)
+Script is not up to date after domain reload: guid(5abceb5fc06c0954682d5b5addb0c3d4) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorHandleDrawing.cs") state(2)
+Script is not up to date after domain reload: guid(9d65f00b82160e14fb2ab9bb2d2108ae) path("Packages/com.unity.probuilder/Editor/EditorCore/PlyExporter.cs") state(2)
+Script is not up to date after domain reload: guid(c15f177c3bca7664dba95c24a470e354) path("Packages/com.unity.probuilder/Runtime/Shapes/Plane.cs") state(2)
+Script is not up to date after domain reload: guid(2abd1512cbef74d89a4b0793e3ec970b) path("Packages/com.unity.probuilder/Runtime/Core/UvAutoManualConversion.cs") state(2)
+Script is not up to date after domain reload: guid(b0c5bae1215e224409318f415e45db0a) path("Packages/com.unity.probuilder/Editor/EditorCore/EntityEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a6f7622c6d6346cca3539de7b00556a7) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/SubdivideObject.cs") state(2)
+Script is not up to date after domain reload: guid(48a7fe196a624a7bae17c8621899b11c) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/SubdivideEdges.cs") state(2)
+Script is not up to date after domain reload: guid(c5b66ff70e896a64ebe5aa9cb28dd535) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/TriangulationAlgorithm.cs") state(2)
+Script is not up to date after domain reload: guid(2d65bb50aabd144ed9c1a4c2bc6d072e) path("Packages/com.unity.settings-manager/Editor/ValueWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(b1602c6e6ff5bde4f9dfa91f8b5c85e4) path("Packages/com.unity.probuilder/Editor/EditorCore/UnityScenePostProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(a931ba2bdb160804eb3438f28aa0def3) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorGUIUtility.cs") state(2)
+Script is not up to date after domain reload: guid(9cfc7aced6c45c0499ba73f07e633bac) path("Packages/com.unity.probuilder/External/StlExporter/Code/pb_Stl_Exporter.cs") state(2)
+Script is not up to date after domain reload: guid(914c2d056412b4f1ca64740fc2cb1c66) path("Packages/com.unity.probuilder/Runtime/Core/PreferenceKeys.cs") state(2)
+Script is not up to date after domain reload: guid(018f1adb8258a4133b73805294498947) path("Packages/com.unity.settings-manager/Tests/Editor/MultipleProjectSettings.cs") state(2)
+Script is not up to date after domain reload: guid(6367e9291991f466897f892a41dd75ff) path("Packages/com.unity.progrids/Editor/GridRenderer.cs") state(2)
+Script is not up to date after domain reload: guid(599cab2fb037142fd9fe246b0b364bc1) path("Packages/com.unity.probuilder/Runtime/Core/ProGridsIgnoreSnap.cs") state(2)
+Script is not up to date after domain reload: guid(7aeb98aaff5054383b10b45f4518f968) path("Packages/com.unity.probuilder/External/CSG/Classes/VertexAttributes.cs") state(2)
+Script is not up to date after domain reload: guid(f6274bb00b150de45a17cdf581bc41f5) path("Packages/com.unity.probuilder/Editor/EditorCore/VertexPositionEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e8f0035a190335d408067f4bda8fbb49) path("Packages/com.unity.probuilder/Editor/EditorCore/ScriptingSymbolManager.cs") state(2)
+Script is not up to date after domain reload: guid(c23e2e2798e8047eabd581579b050162) path("Packages/com.unity.probuilder/Runtime/Core/SerializationUtility.cs") state(2)
+Script is not up to date after domain reload: guid(c4897f4be94b09d4a90eb6a4d9b85c55) path("Packages/com.unity.probuilder/Editor/EditorCore/HierarchyListener.cs") state(2)
+Script is not up to date after domain reload: guid(a2c22c8685df2d44b943673a11597711) path("Packages/com.unity.probuilder/External/KdTree/KdTreeLib/Math/DoubleMath.cs") state(2)
+Script is not up to date after domain reload: guid(b6cb3471ccbde8148a2b76fa987fa0a8) path("Packages/com.unity.progrids/Editor/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(42d1d51e272f34868beefb1d9a2688f6) path("Packages/com.unity.probuilder/Runtime/Core/ProBuilderEnum.cs") state(2)
+Script is not up to date after domain reload: guid(90c015bd1316c423b9aad70704f602ff) path("Packages/com.unity.probuilder/External/CSG/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(4891ddee861208843a4495ed6e404a57) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorGUILayout.cs") state(2)
+Script is not up to date after domain reload: guid(e74c868e28c92e84abb0ae91f8496d26) path("Packages/com.unity.probuilder/External/Poly2Tri/Utility/FixedBitArray3.cs") state(2)
+Script is not up to date after domain reload: guid(8b73fbc8867750541be154ed40569dea) path("Packages/com.unity.probuilder/Editor/EditorCore/HandleGUI.cs") state(2)
+Script is not up to date after domain reload: guid(d9e3db3de6fd8480bb4e763ca2dcbe03) path("Packages/com.unity.probuilder/Runtime/MeshOperations/MergeElements.cs") state(2)
+Script is not up to date after domain reload: guid(192dd82c3ebd3b647ae292174a2f36a6) path("Packages/com.unity.progrids/Editor/IconUtility.cs") state(2)
+Script is not up to date after domain reload: guid(c3ec6d10638d94feaa03c223b6fee2cc) path("Packages/com.unity.settings-manager/Editor/UserSetting.cs") state(2)
+Script is not up to date after domain reload: guid(c6624e07ef7bd4f379420666341dd539) path("Packages/com.unity.probuilder/Editor/EditorCore/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(736319124efd40fda31c36ae2599181a) path("Packages/com.unity.probuilder/Editor/MenuActions/Export/Export.cs") state(2)
+Script is not up to date after domain reload: guid(d9930631c9404fb0b63a91644558eb39) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/DetachFaces.cs") state(2)
+Script is not up to date after domain reload: guid(eace57ffc03f348e48d541e3ac67ae90) path("Packages/com.unity.probuilder/External/CSG/Classes/Vertex.cs") state(2)
+Script is not up to date after domain reload: guid(ab8e2d6a92a04e42baab6202f8650fb3) path("Packages/com.unity.probuilder/Runtime/MeshOperations/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(6d247d7d3f9b23a468d61e433994dd7b) path("Packages/com.unity.probuilder/Runtime/MeshOperations/AppendElements.cs") state(2)
+Script is not up to date after domain reload: guid(add27a30fc9c74bb48a111f8b27c2c8a) path("Packages/com.unity.progrids/Editor/MenuItems.cs") state(2)
+Script is not up to date after domain reload: guid(d123c179cb7a941d0993a60fe2e20cff) path("Packages/com.unity.probuilder/Editor/EditorCore/VertexManipulationToolSettings.cs") state(2)
+Script is not up to date after domain reload: guid(916d519062254e79b6adc87200d2c142) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/ConformObjectNormals.cs") state(2)
+Script is not up to date after domain reload: guid(bb36fee1f817e4860a9937f064b1a192) path("Packages/com.unity.probuilder/Runtime/MeshOperations/CombineMeshes.cs") state(2)
+Script is not up to date after domain reload: guid(e6d7500d036914f3b9768689959295b4) path("Packages/com.unity.probuilder/External/Poly2Tri/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(d540a5c12642c5e40ba3b88fc8ae6c50) path("Packages/com.unity.probuilder/Editor/EditorCore/TooltipEditor.cs") state(2)
+Script is not up to date after domain reload: guid(848eabc153ab891409f3d562463a0efe) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/TriangulationContext.cs") state(2)
+Script is not up to date after domain reload: guid(a9ea06f47bdbe427294162ab3d8e4ef3) path("Packages/com.unity.probuilder/Runtime/MeshOperations/InternalMeshUtility.cs") state(2)
+Script is not up to date after domain reload: guid(a84ca2d947f34a09bd44bc592e22d49c) path("Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(eff25082b866e6d468d04fc8a3f22e71) path("Packages/com.unity.probuilder/Editor/EditorCore/MenuActionStyles.cs") state(2)
+Script is not up to date after domain reload: guid(d4e65de48089c1f428c3752b69114f23) path("Packages/com.unity.progrids/Editor/Version.cs") state(2)
+Script is not up to date after domain reload: guid(4bddc56d76fd9ac49afc63c7dc797ace) path("Packages/com.unity.progrids/Tests/Editor/ReflectedMethodExist.cs") state(2)
+Script is not up to date after domain reload: guid(a581c9a381f68455db0779169a94180c) path("Packages/com.unity.probuilder/Runtime/Core/SelectionModifierBehaviour.cs") state(2)
+Script is not up to date after domain reload: guid(f3ab6033657acd04e93e395ba82570ef) path("Packages/com.unity.probuilder/Editor/EditorCore/ConfigurableWindow.cs") state(2)
+Script is not up to date after domain reload: guid(4ce1c67454d65d14eb3eae2f44b0ffa7) path("Packages/com.unity.probuilder/AssetIdRemapUtility/Editor/AssetId.cs") state(2)
+Script is not up to date after domain reload: guid(1356ec15a14344c2f92417f250ccceae) path("Packages/com.unity.probuilder/Runtime/Shapes/Cube.cs") state(2)
+Script is not up to date after domain reload: guid(cd9c9830c34380541ba162a9751bfb4e) path("Packages/com.unity.probuilder/Runtime/Shapes/Arch.cs") state(2)
+Script is not up to date after domain reload: guid(1113544478cee6a4caafac0b3b7a06f1) path("Packages/com.unity.probuilder/Runtime/Core/MeshHandle.cs") state(2)
+Script is not up to date after domain reload: guid(5f130a448e6f0cc45bacc05a4653fc41) path("Packages/com.unity.probuilder/Runtime/Core/SelectionPickerRendererHDRP.cs") state(2)
+Script is not up to date after domain reload: guid(b7bd43b2e3e547199420eec1d903ff30) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/BevelEdges.cs") state(2)
+Script is not up to date after domain reload: guid(cc6c734d87394ef99cf62171eb6fe416) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/FreezeTransform.cs") state(2)
+Script is not up to date after domain reload: guid(a91947f03a49147a49e5f05ea5737edc) path("Packages/com.unity.probuilder/Runtime/Core/Log.cs") state(2)
+Script is not up to date after domain reload: guid(cd4d30ee1f2db48c6be97ed8d2fc9da4) path("Packages/com.unity.probuilder/Runtime/Core/EntityBehaviour.cs") state(2)
+Script is not up to date after domain reload: guid(fe5e031b8d5fd9d43b054ae08c843652) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/DTSweepDebugContext.cs") state(2)
+Script is not up to date after domain reload: guid(943eceaffe7b13b43bc1b1c129082f62) path("Packages/com.unity.probuilder/Runtime/Core/VertexPositioning.cs") state(2)
+Script is not up to date after domain reload: guid(51cb791f07b14fc08dd10dd56890d5c0) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectMaterial.cs") state(2)
+Script is not up to date after domain reload: guid(b6f090373ec944f59a5423f485b2a776) path("Packages/com.unity.probuilder/Runtime/Shapes/Shape.cs") state(2)
+Script is not up to date after domain reload: guid(267c7f09b45427d4596b29d4c39055fa) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/TriangulationPoint.cs") state(2)
+Script is not up to date after domain reload: guid(b300db76e48084b5680ab36214d3bea3) path("Packages/com.unity.probuilder/Runtime/MeshOperations/DeleteElements.cs") state(2)
+Script is not up to date after domain reload: guid(5f3c839e57094cf6b2e99af5515b2ca0) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/SelectEdgeLoop.cs") state(2)
+Script is not up to date after domain reload: guid(a4bb8ac278d3433ca7313bb5f90a2c52) path("Packages/com.unity.probuilder/Editor/MenuActions/Selection/ShrinkSelection.cs") state(2)
+Script is not up to date after domain reload: guid(ed8e5003f1d14f718326765fbb042572) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/NewBezierShape.cs") state(2)
+Script is not up to date after domain reload: guid(38d00192cfb7943ebaa2898af4577852) path("Packages/com.unity.probuilder/Runtime/Core/SelectionPicker.cs") state(2)
+Script is not up to date after domain reload: guid(9eda47df4ab94d8a8174832a11359a8a) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/ConnectEdges.cs") state(2)
+Script is not up to date after domain reload: guid(485f27eb54532614d89e7e2dc5c9aebc) path("Packages/com.unity.progrids/Editor/SnapSettings.cs") state(2)
+Script is not up to date after domain reload: guid(efd5cca1cb8dabd418d215e770d3fb01) path("Packages/com.unity.probuilder/Runtime/Core/VectorMask.cs") state(2)
+Script is not up to date after domain reload: guid(6c262c1329a02fa49b5cb4c297106f3f) path("Packages/com.unity.probuilder/Editor/EditorCore/ProBuilderEditor.cs") state(2)
+Script is not up to date after domain reload: guid(4746bcae5f2c20c4db633d37d4a2901d) path("Packages/com.unity.probuilder/Editor/EditorCore/EntityUtility.cs") state(2)
+Script is not up to date after domain reload: guid(2efa3d03c26294747aaa61c2a09ac41f) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/DTSweepConstraint.cs") state(2)
+Script is not up to date after domain reload: guid(7ebc93f048090074f80a100718d5a585) path("Packages/com.unity.probuilder/Editor/EditorCore/TextureMoveTool.cs") state(2)
+Script is not up to date after domain reload: guid(a0ed74e97865f42cfbce844278aa8b52) path("Packages/com.unity.probuilder/Runtime/MeshOperations/UV/UVEditing.cs") state(2)
+Script is not up to date after domain reload: guid(22ff4377d8be47cdacb8aefc715b08c4) path("Packages/com.unity.progrids/Editor/Defaults.cs") state(2)
+Script is not up to date after domain reload: guid(3f1ca63a91b17724bbd99c8fa67e0180) path("Packages/com.unity.probuilder/Editor/EditorCore/MaterialPalette.cs") state(2)
+Script is not up to date after domain reload: guid(08c8ab0f8013d492eb6d0d78a261f745) path("Packages/com.unity.probuilder/Runtime/MeshOperations/Subdivision.cs") state(2)
+Script is not up to date after domain reload: guid(c8e7f2a60420444ba31322510285d625) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/OpenVertexColorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(460d1e5b4c054bfc8d012b87f9960bb9) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/CenterPivot.cs") state(2)
+Script is not up to date after domain reload: guid(53aa5497892312842a4c059529cd2397) path("Packages/com.unity.probuilder/External/Poly2Tri/Triangulation/Delaunay/Sweep/AdvancingFront.cs") state(2)
+Script is not up to date after domain reload: guid(a34d12b3d3eeda641bac82627738a726) path("Packages/com.unity.probuilder/External/Poly2Tri/Polygon/PolygonPoint.cs") state(2)
+Script is not up to date after domain reload: guid(08ab9a4e4186d164cb67bda77d36ff4c) path("Packages/com.unity.probuilder/Editor/EditorCore/PreferenceDictionaryEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e72ef48ce83a1ef4c9757c374633ea12) path("Packages/com.unity.probuilder/Editor/EditorCore/SceneDragAndDropListener.cs") state(2)
+Script is not up to date after domain reload: guid(9be09300178708d4aaa608eed9697f1c) path("Packages/com.unity.probuilder/Editor/EditorCore/MaterialEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7dc1dc9c919fa434c915ad64201952dd) path("Packages/com.unity.probuilder/External/StlExporter/Code/pb_Stl_Importer.cs") state(2)
+Script is not up to date after domain reload: guid(0e04a5f326f647a40badbac91f38a704) path("Packages/com.unity.probuilder/Editor/StateMachines/ShapeState.cs") state(2)
+Script is not up to date after domain reload: guid(09410b7978d32924c90d84fa25a07f4a) path("Packages/com.unity.probuilder/External/Poly2Tri/P2T.cs") state(2)
+Script is not up to date after domain reload: guid(aa15474f4b771974c86469106f4a4cb3) path("Packages/com.unity.probuilder/Editor/EditorCore/PolyShapeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e91b0af086a401648866099dfaf3e377) path("Packages/com.unity.probuilder/Editor/EditorCore/ProGridsInterface.cs") state(2)
+Script is not up to date after domain reload: guid(bec5fadb27a8bd249a3d1051e2e8f970) path("Packages/com.unity.probuilder/Editor/EditorCore/MeshSelection.cs") state(2)
+Script is not up to date after domain reload: guid(74e7658b6a583464fa496ffe540ef91f) path("Packages/com.unity.probuilder/Editor/EditorCore/AutoUVEditor.cs") state(2)
+Script is not up to date after domain reload: guid(90d02d4062a613d43bc5e9309ec8ae8f) path("Packages/com.unity.probuilder/Runtime/Shapes/Prism.cs") state(2)
+Script is not up to date after domain reload: guid(bdc593ceb4be46bfab31b9c445ec89a2) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/SubdivideFaces.cs") state(2)
+Script is not up to date after domain reload: guid(f7ba37814af43bf41810a98b5811dee1) path("Packages/com.unity.progrids/Tests/Editor/IgnoreInterfaceIsRespected.cs") state(2)
+Script is not up to date after domain reload: guid(3a73369e033539a42ae8067a8fa967c0) path("Packages/com.unity.probuilder/External/Poly2Tri/Polygon/PolygonSet.cs") state(2)
+Script is not up to date after domain reload: guid(52ebe52d390074084bebc0878e3f74b6) path("Packages/com.unity.probuilder/External/CSG/Classes/Polygon.cs") state(2)
+Script is not up to date after domain reload: guid(2665d2fb2b90b4916bfb3868cda99ea3) path("Packages/com.unity.probuilder/External/CSG/Classes/Plane.cs") state(2)
+Script is not up to date after domain reload: guid(cf31008f4dc1fb548a315685bb054730) path("Packages/com.unity.probuilder/Runtime/Core/SelectPathFaces.cs") state(2)
+Script is not up to date after domain reload: guid(1fdc9faa599347a3b697e785ac4719b3) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/ConformFaceNormals.cs") state(2)
+Script is not up to date after domain reload: guid(c851f089cbc73c141be8cc62b5dc057a) path("Packages/com.unity.probuilder/Editor/MenuActions/Editors/OpenLightmapUVEditor.cs") state(2)
+Script is not up to date after domain reload: guid(767365db77168f744af8685807ad7f4b) path("Packages/com.unity.settings-manager/Tests/Editor/SettingsTests.cs") state(2)
+Script is not up to date after domain reload: guid(244d57cf7fd6842e19000793e2bbac4e) path("Packages/com.unity.progrids/Tests/Editor/IgnoreAttributeIsRespected.cs") state(2)
+Script is not up to date after domain reload: guid(0c114c138e13b8248ae37c8cf12c6979) path("Packages/com.unity.probuilder/Editor/EditorCore/StripProBuilderScripts.cs") state(2)
+Script is not up to date after domain reload: guid(67c0fca06520e4f78923163f9541ba6c) path("Packages/com.unity.settings-manager/Editor/SettingsDictionary.cs") state(2)
+Script is not up to date after domain reload: guid(b3983d7c6b954ee69e23e75009a8b81d) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/TriangulateObject.cs") state(2)
+Script is not up to date after domain reload: guid(2347b9342bafaa845b0b25387d6fa381) path("Packages/com.unity.probuilder/Runtime/Core/SelectionPickerRendererStandard.cs") state(2)
+Script is not up to date after domain reload: guid(223e1a5330ab8468782152a65e857f94) path("Packages/com.unity.settings-manager/Editor/SettingsGUILayout.cs") state(2)
+Script is not up to date after domain reload: guid(19a8719bbc0e11f46b9cd7b9debdfc12) path("Packages/com.unity.progrids/Editor/Preferences.cs") state(2)
+Script is not up to date after domain reload: guid(214db8084d63e06499f41c215a8547a4) path("Packages/com.unity.probuilder/Runtime/MeshOperations/SurfaceTopology.cs") state(2)
+Script is not up to date after domain reload: guid(c339ea7067e6fcd459cb4eac2f0dafb1) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/SplitVertices.cs") state(2)
+Script is not up to date after domain reload: guid(8233d90336aea43098adf6dbabd606a2) path("Packages/com.unity.probuilder/Runtime/Core/ProBuilderMesh.cs") state(2)
+Script is not up to date after domain reload: guid(752d48e9eaa76c54ba0ff161eff2a3f2) path("Packages/com.unity.probuilder/Editor/MenuActions/Object/GenerateUV2.cs") state(2)
+Script is not up to date after domain reload: guid(5b6fe112f5d10423ab960f97d7b6e699) path("Packages/com.unity.probuilder/External/CSG/Classes/Node.cs") state(2)
+Script is not up to date after domain reload: guid(b04279a9fe7348798c260ea6516c1a4c) path("Packages/com.unity.probuilder/Editor/MenuActions/Export/ExportStlBinary.cs") state(2)
+Script is not up to date after domain reload: guid(c9e17f9cc89704707b15d2340fd8a585) path("Packages/com.unity.probuilder/Editor/EditorCore/MenuActionShortcutAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(50a4f82d9b25145fb91d03a7bef21d24) path("Packages/com.unity.probuilder/Editor/EditorCore/EditorHandleDrawingScopes.cs") state(2)
+Script is not up to date after domain reload: guid(a62bb434134faa6439b1998669525768) path("Packages/com.unity.probuilder/Editor/MenuActions/Geometry/WeldVertices.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 691.308900 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.060800 ms MarkObjects: 690.865300 ms  DeleteObjects: 0.068000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.466052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.202 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9209ms)
+		BeginReloadAssembly (1359ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (7780ms)
+			LoadAssemblies (2953ms)
+			RebuildTransferFunctionScriptingTraits (39ms)
+			SetupTypeCache (2329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (2877ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (89ms)
+				SetLoadedEditorAssemblies (27ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (473ms)
+				ProcessInitializeOnLoadAttributes (2062ms)
+				ProcessInitializeOnLoadMethodAttributes (214ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (10ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1919 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 82.9 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 4.710200 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.063500 ms MarkObjects: 3.115500 ms  DeleteObjects: 1.323300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 713.198596 seconds.
+  path: Assets/AssetStoreOriginals
+  artifactKey: Guid(1ce6ddbf29d42a44990f28062028487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals using Guid(1ce6ddbf29d42a44990f28062028487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fb817544ca4bc73a92f591986a136a') in 0.067626 seconds 
+  Import took 0.188399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.527967 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets
+  artifactKey: Guid(3de6a505ee1395544a2f0a3dfdc1e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets using Guid(3de6a505ee1395544a2f0a3dfdc1e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7145dc51c382a0f5d711df4a82370482') in 0.002938 seconds 
+  Import took 0.061073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.781486 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About
+  artifactKey: Guid(844809bda0ef59246a44bb3ec8a99a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About using Guid(844809bda0ef59246a44bb3ec8a99a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f00c080ca4d0af3cc4b54e5f130b3') in 0.001531 seconds 
+  Import took 0.031882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046510 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2ebd2844e1cee09475f357c3afb310') in 0.300041 seconds 
+  Import took 0.326516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.131602 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior
+  artifactKey: Guid(297b5e148799d744c923d359390b9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior using Guid(297b5e148799d744c923d359390b9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b382af6214a672e13f1eec7c105d30fa') in 0.001655 seconds 
+  Import took 0.040136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.418049 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d88d3e5124eb2057e959bcb5f7a501a') in 0.001495 seconds 
+  Import took 0.026440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.522557 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_PrefabLayout.unity
+  artifactKey: Guid(acdd8911a304f1e4aa73dcd9f6be5461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_PrefabLayout.unity using Guid(acdd8911a304f1e4aa73dcd9f6be5461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc20afa3e6d6e43a7fb8742ff42d1d41') in 0.025011 seconds 
+  Import took 0.059310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.024706 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout.unity
+  artifactKey: Guid(2194fe559202da244a6cc0ad8cbc636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout.unity using Guid(2194fe559202da244a6cc0ad8cbc636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a2c8f732d8e72b78d29108440a32d') in 0.002158 seconds 
+  Import took 0.041108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.034450 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.030915 seconds 
+  Import took 0.290792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1008.976746 seconds.
+  path: Assets/VIRTI
+  artifactKey: Guid(1e6a472d407ed7e4aa70ff0064675df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI using Guid(1e6a472d407ed7e4aa70ff0064675df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6aab537e09f8dde7b2695d8786200d') in 0.520031 seconds 
+  Import took 0.872206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857598 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE
+  artifactKey: Guid(0dc056b09d693554b8d860fc060abaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE using Guid(0dc056b09d693554b8d860fc060abaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae20ea3b9e292f97592b2ee3caf671c') in 0.070055 seconds 
+  Import took 0.284988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.973599 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs
+  artifactKey: Guid(4e938b5dafeca3344810a8bd0ed56f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs using Guid(4e938b5dafeca3344810a8bd0ed56f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba44820efbc53a120fdcc72b46087a') in 0.205748 seconds 
+  Import took 0.298168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.439567 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom
+  artifactKey: Guid(4b01adc68a6b1394a99bbed3150ae8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom using Guid(4b01adc68a6b1394a99bbed3150ae8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ab90ceb3275cc35e202eba7fadf9cf') in 0.061309 seconds 
+  Import took 0.164710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013288 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/Bed.prefab
+  artifactKey: Guid(dd3313ee9ee86d24193cf54a44a430f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/Bed.prefab using Guid(dd3313ee9ee86d24193cf54a44a430f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf842756d76f2b08a77d9c66bd3a25ca') in 5.523802 seconds 
+  Import took 5.677955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/TrashBath.prefab
+  artifactKey: Guid(ed7cfc0cd9be8c84f94674c2d508d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/TrashBath.prefab using Guid(ed7cfc0cd9be8c84f94674c2d508d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4289c402cb4479d159f634f717b9ec') in 1.394010 seconds 
+  Import took 1.491670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/Pilled.prefab
+  artifactKey: Guid(2d0113c80f53cad4d930cf66cc308d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/Pilled.prefab using Guid(2d0113c80f53cad4d930cf66cc308d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32091a19a130ef03d058de47c43f939c') in 0.378666 seconds 
+  Import took 0.498332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom
+  artifactKey: Guid(a177040fa4df09243849d4bc12742631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom using Guid(a177040fa4df09243849d4bc12742631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0921d1b9b6436152d870d8ff584ce6c') in 0.123237 seconds 
+  Import took 0.281258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/BathSink.prefab
+  artifactKey: Guid(5fa9da1653241f649bc23720842cac49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/BathSink.prefab using Guid(5fa9da1653241f649bc23720842cac49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ad16ae88dfdd83a36cf81bf02a8b35') in 0.249421 seconds 
+  Import took 0.295103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/Drawer.prefab
+  artifactKey: Guid(7f18227a94106cd4885511dc014b3d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/Drawer.prefab using Guid(7f18227a94106cd4885511dc014b3d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f769a8343a10beb82deac5c813a225') in 0.126726 seconds 
+  Import took 0.173092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/Shower.prefab
+  artifactKey: Guid(f0c1cfec131ee294fa5eaceea93663d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/Shower.prefab using Guid(f0c1cfec131ee294fa5eaceea93663d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce23d170b8ac883466801c256824afd') in 0.177059 seconds 
+  Import took 0.201640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/Toilet.prefab
+  artifactKey: Guid(d95e031226a7f6046adf7008bc0b14f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Bathroom/Toilet.prefab using Guid(d95e031226a7f6046adf7008bc0b14f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ad0c55852239170fdfbfced9eaa5c6') in 0.134693 seconds 
+  Import took 0.179401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/TableLamp.prefab
+  artifactKey: Guid(d99127f63ce55ac4a914d0109c66460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/BedRoom/TableLamp.prefab using Guid(d99127f63ce55ac4a914d0109c66460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979ad716e49d3cb8cb664bb9e10e92ca') in 0.510836 seconds 
+  Import took 0.547031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.638886 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/LivingRoom
+  artifactKey: Guid(532d7f806813a934a81c723edcaf6f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/LivingRoom using Guid(532d7f806813a934a81c723edcaf6f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410182533d43185a436ff4c308211e0b') in 0.001378 seconds 
+  Import took 0.037812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059710 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/LivingRoom/Couch1.prefab
+  artifactKey: Guid(29774f30398ed32469d01ece790ceb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/LivingRoom/Couch1.prefab using Guid(29774f30398ed32469d01ece790ceb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba84c6e1a2d8fa0ae17e42f715a6fb') in 0.120893 seconds 
+  Import took 0.144574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/LivingRoom/TV-Old.prefab
+  artifactKey: Guid(d0dbdeb7d28d6d243a618b1d6312c049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/LivingRoom/TV-Old.prefab using Guid(d0dbdeb7d28d6d243a618b1d6312c049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6dc7ae832b1cc8345ec9fd5f0d83b0') in 0.170103 seconds 
+  Import took 0.194751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.140185 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Kitchen
+  artifactKey: Guid(4b8d7ab6fb164e041ba93a961f93a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Kitchen using Guid(4b8d7ab6fb164e041ba93a961f93a728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28fe41ac8fac962d6172e84f4fb2b70') in 0.157961 seconds 
+  Import took 0.177980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354207 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras
+  artifactKey: Guid(8b17e7a070e2b01449606df916978232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras using Guid(8b17e7a070e2b01449606df916978232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe481999d626e3da03e13807cc8b260') in 0.035949 seconds 
+  Import took 0.102594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061584 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/Door2.prefab
+  artifactKey: Guid(97b10c95ce8e2d64f9cebc43b086df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/Door2.prefab using Guid(97b10c95ce8e2d64f9cebc43b086df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bc531104fea5ccf337b86865ce267e') in 0.201794 seconds 
+  Import took 0.235841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/LightSwitch.prefab
+  artifactKey: Guid(5d89cc1d460ce7047a28057e8daa2a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/LightSwitch.prefab using Guid(5d89cc1d460ce7047a28057e8daa2a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94957edde08c6cf0f3a61676f86e4a6') in 0.262475 seconds 
+  Import took 0.272821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/Windows1.prefab
+  artifactKey: Guid(842d8d3f8ca6f0f4a84e715e6858651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/Windows1.prefab using Guid(842d8d3f8ca6f0f4a84e715e6858651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0fbf5a8a8c2ae731a1139eab3b2bfb') in 0.131850 seconds 
+  Import took 0.170973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/Flower2.prefab
+  artifactKey: Guid(4b6d6338869e62d4088b1f6da0ff33e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Extras/Flower2.prefab using Guid(4b6d6338869e62d4088b1f6da0ff33e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b107cffbbf0ea3776d7af36eaafd38') in 0.185006 seconds 
+  Import took 0.226931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.077967 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom
+  artifactKey: Guid(e9db6166b0249ce428f8fc59a83dc5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom using Guid(e9db6166b0249ce428f8fc59a83dc5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73070540829c2fe0d3a9c22531f63c33') in 0.033733 seconds 
+  Import took 0.081756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039191 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/Chair2.prefab
+  artifactKey: Guid(5523dc4c843d0654da42ff7a8ebd0286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/Chair2.prefab using Guid(5523dc4c843d0654da42ff7a8ebd0286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6f37e8f4c2f921df1c94986027ecda') in 0.165408 seconds 
+  Import took 0.190396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/Cup.prefab
+  artifactKey: Guid(8c0e595ffd71efe4d9a1a4a0e08f2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/Cup.prefab using Guid(8c0e595ffd71efe4d9a1a4a0e08f2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e2e1160337a993c9c38a01600e0f53') in 0.343115 seconds 
+  Import took 0.367736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/Table1.prefab
+  artifactKey: Guid(445d2f1be2f6f8f489910c46367a37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/Table1.prefab using Guid(445d2f1be2f6f8f489910c46367a37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216281afcf211b6f317ded4c28c5baaf') in 0.157048 seconds 
+  Import took 0.220244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/TableComplete.prefab
+  artifactKey: Guid(ae542f9f1099f6940bb7c70d88c2a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/TableComplete.prefab using Guid(ae542f9f1099f6940bb7c70d88c2a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984849eeb8d99efe890eea1c795f9bd6') in 0.174511 seconds 
+  Import took 0.201504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/SteelShape.prefab
+  artifactKey: Guid(47d534c0e19826b468695514ee8955b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/DinnerRoom/SteelShape.prefab using Guid(47d534c0e19826b468695514ee8955b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b096b2d6bd411471dc604d90041ca0') in 0.078360 seconds 
+  Import took 0.097675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.134436 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration
+  artifactKey: Guid(054dc4b1218e51d42ae15ce5b2634d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration using Guid(054dc4b1218e51d42ae15ce5b2634d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526cf3070f419ad02c398fcd5d8588b1') in 0.064266 seconds 
+  Import took 0.121502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027311 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Curtain.prefab
+  artifactKey: Guid(7b6a6dd10c95e82468a8a0d28b9dc433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Curtain.prefab using Guid(7b6a6dd10c95e82468a8a0d28b9dc433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86f5640dc38007f6534bd6473c0ffb2') in 0.138608 seconds 
+  Import took 0.194164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Frame3.prefab
+  artifactKey: Guid(2b00a210036f30049bab5eb8cad9fd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Frame3.prefab using Guid(2b00a210036f30049bab5eb8cad9fd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5b719e8aa0ac795a8e33e16353ed35') in 0.047766 seconds 
+  Import took 0.073320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Frame1.prefab
+  artifactKey: Guid(062bfc87662647d43951377bb4b671f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Frame1.prefab using Guid(062bfc87662647d43951377bb4b671f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66b5a1eefef86e7f0ea331fc2b01d91') in 0.187113 seconds 
+  Import took 0.247825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Plant2.prefab
+  artifactKey: Guid(2e2ab467fad9033438c76e2c50d6661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Plant2.prefab using Guid(2e2ab467fad9033438c76e2c50d6661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ba878c93fcf0110d6cb28332478070') in 0.123842 seconds 
+  Import took 0.136246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Lamp2.prefab
+  artifactKey: Guid(2b1ab68e56742254994b99a6e7cacadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Decoration/Lamp2.prefab using Guid(2b1ab68e56742254994b99a6e7cacadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37370ffc7b32a1164f870b9b0de3bbc') in 0.264906 seconds 
+  Import took 0.287262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 583.711218 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Kitchen/Refrigerator.prefab
+  artifactKey: Guid(dd2596e4c6e17754b97b1357e7bdb896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Kitchen/Refrigerator.prefab using Guid(dd2596e4c6e17754b97b1357e7bdb896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3b05055925ddea8d8627710b471133') in 0.710192 seconds 
+  Import took 0.834857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002933 seconds.
+  path: Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Kitchen/Stove.prefab
+  artifactKey: Guid(052a55dda140dbc4b8008109747e5c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VIRTI/VOXEL-Forniture-FREE/Prefabs/Kitchen/Stove.prefab using Guid(052a55dda140dbc4b8008109747e5c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166360e439dc58dee884ae080bf1b020') in 0.236548 seconds 
+  Import took 0.317424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1684.531111 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(a26e8e4043ca263418af4b20ec3615b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings.lighting using Guid(a26e8e4043ca263418af4b20ec3615b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b16fc6dffd9ee4c1d6b592bf3e69c1') in 0.193444 seconds 
+  Import took 0.380976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10122.799762 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.236646 seconds 
+  Import took 0.607390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.982271 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4cc3232d11086f347ba71f6db746a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4cc3232d11086f347ba71f6db746a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d326bc04ee71daed43544e458bb8922') in 0.082536 seconds 
+  Import took 0.249587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.529199 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfafa80bbb11a2607235032ae2c2a9b2') in 0.304136 seconds 
+  Import took 0.472658 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.732266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 19.730 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19808ms)
+		BeginReloadAssembly (8074ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (283ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (34ms)
+			CreateAndSetChildDomain (2151ms)
+		EndReloadAssembly (10659ms)
+			LoadAssemblies (6842ms)
+			RebuildTransferFunctionScriptingTraits (91ms)
+			SetupTypeCache (3088ms)
+			ReleaseScriptCaches (128ms)
+			RebuildScriptCaches (206ms)
+			SetupLoadedEditorAssemblies (2896ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (147ms)
+				SetLoadedEditorAssemblies (28ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (583ms)
+				ProcessInitializeOnLoadAttributes (1912ms)
+				ProcessInitializeOnLoadMethodAttributes (166ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (30ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 303.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 3593.182300 ms (FindLiveObjects: 275.532900 ms CreateObjectMapping: 1.164300 ms MarkObjects: 3219.090400 ms  DeleteObjects: 65.430700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 681.116620 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b154ec1285da2074000bc30c07b44b1') in 1.211016 seconds 
+  Import took 1.501942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.568754 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec6aeba21ac1aeb36ff8a2fd41d2501') in 0.220745 seconds 
+  Import took 0.897127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.511819 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfb2e484bf0de97bd7fb3ee4e5f1b49') in 0.230236 seconds 
+  Import took 0.562669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.377474 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0832f6283a1cd50eb77945fa3ac10257') in 0.038715 seconds 
+  Import took 0.190343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.207286 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aed34e28f7ba5f80b569e4b7a4ac04') in 0.004864 seconds 
+  Import took 0.051702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.816271 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0b379490b58c64d4b965c2da6c728c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7265f1ba008a5e32e38c53f1c08cc60d') in 0.075058 seconds 
+  Import took 0.234219 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.649578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 512.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 19.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19494ms)
+		BeginReloadAssembly (3530ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (163ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (5ms)
+			CreateAndSetChildDomain (1202ms)
+		EndReloadAssembly (15266ms)
+			LoadAssemblies (3325ms)
+			RebuildTransferFunctionScriptingTraits (49ms)
+			SetupTypeCache (2746ms)
+			ReleaseScriptCaches (301ms)
+			RebuildScriptCaches (462ms)
+			SetupLoadedEditorAssemblies (5816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (382ms)
+				SetLoadedEditorAssemblies (46ms)
+				RefreshPlugins (551ms)
+				BeforeProcessingInitializeOnLoad (1884ms)
+				ProcessInitializeOnLoadAttributes (2592ms)
+				ProcessInitializeOnLoadMethodAttributes (347ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (9ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 454.650500 ms (FindLiveObjects: 28.140200 ms CreateObjectMapping: 0.197800 ms MarkObjects: 414.034600 ms  DeleteObjects: 12.274900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.236245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.466 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8562ms)
+		BeginReloadAssembly (2484ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (122ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (963ms)
+		EndReloadAssembly (5439ms)
+			LoadAssemblies (2660ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1429ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (1626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (1205ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 377.822700 ms (FindLiveObjects: 14.100100 ms CreateObjectMapping: 0.653200 ms MarkObjects: 347.214800 ms  DeleteObjects: 15.850400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.684464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 191.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13122ms)
+		BeginReloadAssembly (3828ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (115ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (6ms)
+			CreateAndSetChildDomain (1025ms)
+		EndReloadAssembly (8501ms)
+			LoadAssemblies (3765ms)
+			RebuildTransferFunctionScriptingTraits (25ms)
+			SetupTypeCache (1731ms)
+			ReleaseScriptCaches (64ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (3282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (138ms)
+				SetLoadedEditorAssemblies (26ms)
+				RefreshPlugins (224ms)
+				BeforeProcessingInitializeOnLoad (685ms)
+				ProcessInitializeOnLoadAttributes (1959ms)
+				ProcessInitializeOnLoadMethodAttributes (226ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (21ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 369.569500 ms (FindLiveObjects: 16.520000 ms CreateObjectMapping: 1.053900 ms MarkObjects: 335.532700 ms  DeleteObjects: 16.457900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.523548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 17.740 seconds
+Domain Reload Profiling:
+	ReloadAssembly (17786ms)
+		BeginReloadAssembly (4650ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (215ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (829ms)
+		EndReloadAssembly (10886ms)
+			LoadAssemblies (5557ms)
+			RebuildTransferFunctionScriptingTraits (121ms)
+			SetupTypeCache (2462ms)
+			ReleaseScriptCaches (16ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (4204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (27ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (436ms)
+				ProcessInitializeOnLoadAttributes (3025ms)
+				ProcessInitializeOnLoadMethodAttributes (551ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (82ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (104ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 352.734100 ms (FindLiveObjects: 31.905000 ms CreateObjectMapping: 0.563500 ms MarkObjects: 313.114300 ms  DeleteObjects: 7.147300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.813718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.136 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10281ms)
+		BeginReloadAssembly (2300ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (196ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (9ms)
+			CreateAndSetChildDomain (720ms)
+		EndReloadAssembly (7849ms)
+			LoadAssemblies (2819ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (12ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (3326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (2866ms)
+				ProcessInitializeOnLoadMethodAttributes (310ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (34ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 144.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 2635.435500 ms (FindLiveObjects: 234.164600 ms CreateObjectMapping: 1.940900 ms MarkObjects: 2018.726800 ms  DeleteObjects: 341.529500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.055599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.745 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12779ms)
+		BeginReloadAssembly (2615ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (73ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (850ms)
+		EndReloadAssembly (9491ms)
+			LoadAssemblies (3156ms)
+			RebuildTransferFunctionScriptingTraits (43ms)
+			SetupTypeCache (2409ms)
+			ReleaseScriptCaches (34ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (3622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (99ms)
+				SetLoadedEditorAssemblies (61ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (790ms)
+				ProcessInitializeOnLoadAttributes (2335ms)
+				ProcessInitializeOnLoadMethodAttributes (193ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (14ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 30.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 663.542400 ms (FindLiveObjects: 50.927500 ms CreateObjectMapping: 1.596500 ms MarkObjects: 578.536500 ms  DeleteObjects: 32.474400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.603659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13629ms)
+		BeginReloadAssembly (3840ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (104ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (1899ms)
+		EndReloadAssembly (9074ms)
+			LoadAssemblies (2916ms)
+			RebuildTransferFunctionScriptingTraits (49ms)
+			SetupTypeCache (2791ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (177ms)
+			SetupLoadedEditorAssemblies (3134ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (17ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (546ms)
+				ProcessInitializeOnLoadAttributes (2226ms)
+				ProcessInitializeOnLoadMethodAttributes (234ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (7ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 244.589900 ms (FindLiveObjects: 13.130900 ms CreateObjectMapping: 0.752500 ms MarkObjects: 212.772700 ms  DeleteObjects: 17.929500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.250457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6329ms)
+		BeginReloadAssembly (1073ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (452ms)
+		EndReloadAssembly (4997ms)
+			LoadAssemblies (2136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1210ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (797ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 197.865500 ms (FindLiveObjects: 0.421100 ms CreateObjectMapping: 0.230900 ms MarkObjects: 191.554600 ms  DeleteObjects: 5.655600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.236386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 23.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (23640ms)
+		BeginReloadAssembly (8418ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (388ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (1682ms)
+		EndReloadAssembly (12926ms)
+			LoadAssemblies (6459ms)
+			RebuildTransferFunctionScriptingTraits (49ms)
+			SetupTypeCache (4555ms)
+			ReleaseScriptCaches (15ms)
+			RebuildScriptCaches (255ms)
+			SetupLoadedEditorAssemblies (3035ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (115ms)
+				SetLoadedEditorAssemblies (23ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (639ms)
+				ProcessInitializeOnLoadAttributes (2034ms)
+				ProcessInitializeOnLoadMethodAttributes (169ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (20ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 384.343100 ms (FindLiveObjects: 59.845000 ms CreateObjectMapping: 0.301300 ms MarkObjects: 308.206800 ms  DeleteObjects: 15.986800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.569635 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.044 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10113ms)
+		BeginReloadAssembly (3231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (97ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (6ms)
+			CreateAndSetChildDomain (1189ms)
+		EndReloadAssembly (6287ms)
+			LoadAssemblies (2659ms)
+			RebuildTransferFunctionScriptingTraits (48ms)
+			SetupTypeCache (1428ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (2324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (27ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (387ms)
+				ProcessInitializeOnLoadAttributes (1647ms)
+				ProcessInitializeOnLoadMethodAttributes (176ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (15ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 380.513600 ms (FindLiveObjects: 23.184000 ms CreateObjectMapping: 0.230900 ms MarkObjects: 320.004700 ms  DeleteObjects: 37.091100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.676864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 14.689 seconds
+Domain Reload Profiling:
+	ReloadAssembly (14709ms)
+		BeginReloadAssembly (3495ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (70ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (1237ms)
+		EndReloadAssembly (10542ms)
+			LoadAssemblies (3179ms)
+			RebuildTransferFunctionScriptingTraits (51ms)
+			SetupTypeCache (3735ms)
+			ReleaseScriptCaches (22ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (3493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (126ms)
+				SetLoadedEditorAssemblies (61ms)
+				RefreshPlugins (14ms)
+				BeforeProcessingInitializeOnLoad (744ms)
+				ProcessInitializeOnLoadAttributes (2344ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (17ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 506.436900 ms (FindLiveObjects: 49.136600 ms CreateObjectMapping: 0.226200 ms MarkObjects: 358.530700 ms  DeleteObjects: 98.540800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.256263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3804ms)
+		BeginReloadAssembly (798ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (50ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (391ms)
+		EndReloadAssembly (2913ms)
+			LoadAssemblies (1889ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 268.468900 ms (FindLiveObjects: 37.184600 ms CreateObjectMapping: 0.260500 ms MarkObjects: 228.280400 ms  DeleteObjects: 2.741000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.222572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3248ms)
+		BeginReloadAssembly (453ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (190ms)
+		EndReloadAssembly (2710ms)
+			LoadAssemblies (444ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (1076ms)
+				ProcessInitializeOnLoadMethodAttributes (246ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (21ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 816.720200 ms (FindLiveObjects: 37.572300 ms CreateObjectMapping: 0.501000 ms MarkObjects: 709.980000 ms  DeleteObjects: 68.662200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.291828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 154.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 36.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (36457ms)
+		BeginReloadAssembly (8727ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (303ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (6ms)
+			CreateAndSetChildDomain (1923ms)
+		EndReloadAssembly (23631ms)
+			LoadAssemblies (8903ms)
+			RebuildTransferFunctionScriptingTraits (82ms)
+			SetupTypeCache (9066ms)
+			ReleaseScriptCaches (21ms)
+			RebuildScriptCaches (371ms)
+			SetupLoadedEditorAssemblies (6071ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (170ms)
+				SetLoadedEditorAssemblies (78ms)
+				RefreshPlugins (185ms)
+				BeforeProcessingInitializeOnLoad (2354ms)
+				ProcessInitializeOnLoadAttributes (2986ms)
+				ProcessInitializeOnLoadMethodAttributes (281ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (12ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2379.
+Total: 418.631100 ms (FindLiveObjects: 10.536000 ms CreateObjectMapping: 0.720100 ms MarkObjects: 391.549300 ms  DeleteObjects: 15.822500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.251551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 16.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (16441ms)
+		BeginReloadAssembly (4004ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (175ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (9ms)
+			CreateAndSetChildDomain (1229ms)
+		EndReloadAssembly (11343ms)
+			LoadAssemblies (3637ms)
+			RebuildTransferFunctionScriptingTraits (50ms)
+			SetupTypeCache (2789ms)
+			ReleaseScriptCaches (14ms)
+			RebuildScriptCaches (156ms)
+			SetupLoadedEditorAssemblies (4477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (154ms)
+				SetLoadedEditorAssemblies (94ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (1536ms)
+				ProcessInitializeOnLoadAttributes (2400ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (18ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 44.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 543.459000 ms (FindLiveObjects: 64.226400 ms CreateObjectMapping: 0.491000 ms MarkObjects: 435.089100 ms  DeleteObjects: 43.647900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.513143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5553ms)
+		BeginReloadAssembly (1282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (77ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (597ms)
+		EndReloadAssembly (4054ms)
+			LoadAssemblies (2924ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (603ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 14.797500 ms (FindLiveObjects: 0.591600 ms CreateObjectMapping: 1.003200 ms MarkObjects: 8.646000 ms  DeleteObjects: 4.551300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.212692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 980.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 44.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (44374ms)
+		BeginReloadAssembly (9558ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (394ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (2638ms)
+		EndReloadAssembly (32561ms)
+			LoadAssemblies (8771ms)
+			RebuildTransferFunctionScriptingTraits (161ms)
+			SetupTypeCache (14004ms)
+			ReleaseScriptCaches (116ms)
+			RebuildScriptCaches (187ms)
+			SetupLoadedEditorAssemblies (9929ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (509ms)
+				SetLoadedEditorAssemblies (127ms)
+				RefreshPlugins (1034ms)
+				BeforeProcessingInitializeOnLoad (2413ms)
+				ProcessInitializeOnLoadAttributes (5477ms)
+				ProcessInitializeOnLoadMethodAttributes (349ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (16ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 1527.116600 ms (FindLiveObjects: 68.381600 ms CreateObjectMapping: 0.884000 ms MarkObjects: 1323.257900 ms  DeleteObjects: 134.585100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.603345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5675ms)
+		BeginReloadAssembly (1026ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (378ms)
+		EndReloadAssembly (4436ms)
+			LoadAssemblies (2142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1104ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (905ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 403.676300 ms (FindLiveObjects: 34.124800 ms CreateObjectMapping: 0.277000 ms MarkObjects: 352.437700 ms  DeleteObjects: 16.832100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.866319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9771ms)
+		BeginReloadAssembly (2735ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (84ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (873ms)
+		EndReloadAssembly (6422ms)
+			LoadAssemblies (2664ms)
+			RebuildTransferFunctionScriptingTraits (47ms)
+			SetupTypeCache (1740ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (2219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (74ms)
+				SetLoadedEditorAssemblies (28ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (387ms)
+				ProcessInitializeOnLoadAttributes (1471ms)
+				ProcessInitializeOnLoadMethodAttributes (231ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (17ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 1390.620200 ms (FindLiveObjects: 133.660800 ms CreateObjectMapping: 0.321400 ms MarkObjects: 1197.186000 ms  DeleteObjects: 59.448100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.822312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6585ms)
+		BeginReloadAssembly (1288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (644ms)
+		EndReloadAssembly (5052ms)
+			LoadAssemblies (2730ms)
+			RebuildTransferFunctionScriptingTraits (56ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (46ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (262ms)
+				ProcessInitializeOnLoadAttributes (944ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (26ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2391.
+Total: 469.670900 ms (FindLiveObjects: 17.650200 ms CreateObjectMapping: 0.264000 ms MarkObjects: 414.138000 ms  DeleteObjects: 37.615800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.174269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5097ms)
+		BeginReloadAssembly (1184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (69ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (507ms)
+		EndReloadAssembly (3721ms)
+			LoadAssemblies (1913ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (724ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (554ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2393.
+Total: 5.770600 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.071600 ms MarkObjects: 3.505200 ms  DeleteObjects: 1.894700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.654708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 19.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19895ms)
+		BeginReloadAssembly (5133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (265ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (1471ms)
+		EndReloadAssembly (12728ms)
+			LoadAssemblies (3777ms)
+			RebuildTransferFunctionScriptingTraits (61ms)
+			SetupTypeCache (2846ms)
+			ReleaseScriptCaches (18ms)
+			RebuildScriptCaches (320ms)
+			SetupLoadedEditorAssemblies (4779ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (200ms)
+				SetLoadedEditorAssemblies (63ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1702ms)
+				ProcessInitializeOnLoadAttributes (2421ms)
+				ProcessInitializeOnLoadMethodAttributes (287ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (16ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (98ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 556.242000 ms (FindLiveObjects: 50.804200 ms CreateObjectMapping: 0.546600 ms MarkObjects: 467.948500 ms  DeleteObjects: 36.938000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
